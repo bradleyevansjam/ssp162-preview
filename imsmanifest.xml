@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest identifier="com.course.ssp162decisionreviewfinalassessment" version="1.0"
+  xmlns="http://www.imsproject.org/xsd/imscp_rootv1p1p2"
+  xmlns:adlcp="http://www.adlnet.org/xsd/adlcp_rootv1p2"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://www.imsproject.org/xsd/imscp_rootv1p1p2 imscp_rootv1p1p2.xsd
+                      http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd
+                      http://www.adlnet.org/xsd/adlcp_rootv1p2 adlcp_rootv1p2.xsd">
+  <metadata>
+    <schema>ADL SCORM</schema>
+    <schemaversion>1.2</schemaversion>
+  </metadata>
+  <organizations default="ORG-1">
+    <organization identifier="ORG-1">
+      <title>Match-day decision review and final assessment</title>
+      <item identifier="ITEM-1" identifierref="RES-1" isvisible="true">
+        <title>Match-day decision review and final assessment</title>
+        <adlcp:masteryscore>70</adlcp:masteryscore>
+      </item>
+    </organization>
+  </organizations>
+  <resources>
+    <resource identifier="RES-1" type="webcontent" adlcp:scormtype="sco" href="index.html">
+      <file href="index.html"/>
+      <file href="brand/afc-logo-master-800.png"/>
+      <file href="brand/afc-ssp-start-picture.jpg"/>
+      <file href="brand/fonts/Ubuntu-Light.ttf"/>
+      <file href="brand/fonts/Ubuntu-Medium.ttf"/>
+      <file href="brand/fonts/Ubuntu-Regular.ttf"/>
+      <file href="captions/ssp162-v2-smoke.ar.vtt"/>
+      <file href="captions/ssp162-v2-smoke.en.vtt"/>
+      <file href="captions/ssp162-v3-fine.ar.vtt"/>
+      <file href="captions/ssp162-v3-fine.en.vtt"/>
+      <file href="captions/ssp162-v4-never.ar.vtt"/>
+      <file href="captions/ssp162-v4-never.en.vtt"/>
+      <file href="fonts/CREDITS.txt"/>
+      <file href="fonts/TwemojiCountryFlags.woff2"/>
+      <file href="icons/fluent-3d-1st-place-medal.png"/>
+      <file href="icons/fluent-3d-alarm-clock.png"/>
+      <file href="icons/fluent-3d-backpack.png"/>
+      <file href="icons/fluent-3d-bust-in-silhouette.png"/>
+      <file href="icons/fluent-3d-busts-in-silhouette.png"/>
+      <file href="icons/fluent-3d-chart-increasing.png"/>
+      <file href="icons/fluent-3d-check-mark-button.png"/>
+      <file href="icons/fluent-3d-clipboard.png"/>
+      <file href="icons/fluent-3d-compass.png"/>
+      <file href="icons/fluent-3d-counterclockwise-arrows-button.png"/>
+      <file href="icons/fluent-3d-door.png"/>
+      <file href="icons/fluent-3d-level-slider.png"/>
+      <file href="icons/fluent-3d-light-bulb.png"/>
+      <file href="icons/fluent-3d-megaphone.png"/>
+      <file href="icons/fluent-3d-memo.png"/>
+      <file href="icons/fluent-3d-mosque.png"/>
+      <file href="icons/fluent-3d-open-book.png"/>
+      <file href="icons/fluent-3d-page-facing-up.png"/>
+      <file href="icons/fluent-3d-speech-balloon.png"/>
+      <file href="icons/fluent-3d-spiral-calendar.png"/>
+      <file href="icons/fluent-3d-stadium.png"/>
+      <file href="icons/fluent-3d-star.png"/>
+      <file href="icons/fluent-3d-stop-sign.png"/>
+      <file href="icons/fluent-3d-thinking-face.png"/>
+      <file href="icons/fluent-3d-warning.png"/>
+      <file href="images/cast/C-01.jpg"/>
+      <file href="images/cast/C-05.jpg"/>
+      <file href="images/cast/C-07.jpg"/>
+      <file href="images/cast/C-08.jpg"/>
+      <file href="images/ssp162-b1-exit.jpg"/>
+      <file href="images/ssp162-b2-noshow.jpg"/>
+      <file href="images/ssp162-b3-barrier.jpg"/>
+      <file href="images/ssp162-b4-calls.jpg"/>
+      <file href="images/ssp162-b5-stairs.jpg"/>
+      <file href="images/ssp162-dp1-briefing.jpg"/>
+      <file href="images/ssp162-dp7-concourse.jpg"/>
+      <file href="images/ssp162-s0-checkin.jpg"/>
+      <file href="images/ssp162-s4-zone.jpg"/>
+      <file href="images/ssp162-s7-sp6.jpg"/>
+      <file href="scorm.js"/>
+      <file href="video/ssp162-v2-smoke.mp4"/>
+      <file href="video/ssp162-v3-fine.mp4"/>
+      <file href="video/ssp162-v4-never.mp4"/>
+      <file href="aids/SSP16.2-Match-day-decision-review-and-final-assessment-job-aids.pdf"/>
+      <file href="aids/SSP16.2-Match-day-decision-review-and-final-assessment-job-aids-pages/p1.jpg"/>
+    </resource>
+  </resources>
+</manifest>
